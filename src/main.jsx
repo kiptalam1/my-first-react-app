@@ -5,9 +5,10 @@ import './index.css'
 // import Greeting from './Greeting.jsx';
 import Syntax from './Syntax.jsx'
 import AnimalList from './AnimalList.jsx'
+import MainApp from './ComponentLists.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AnimalList />
+    <MainApp />
   </StrictMode>,
 )

@@ -7,9 +7,10 @@ import Syntax from './Syntax.jsx'
 import AnimalList from './AnimalList.jsx'
 import MainApp from './ComponentLists.jsx'
 import TodoList from './TodoList.jsx'
+import ButtonApp from './DataPassing.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <TodoList />
+    <ButtonApp />
   </StrictMode>,
 )

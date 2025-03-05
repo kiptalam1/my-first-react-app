@@ -6,9 +6,10 @@ import './index.css'
 import Syntax from './Syntax.jsx'
 import AnimalList from './AnimalList.jsx'
 import MainApp from './ComponentLists.jsx'
+import TodoList from './TodoList.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MainApp />
+    <TodoList />
   </StrictMode>,
 )

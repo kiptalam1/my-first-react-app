@@ -8,9 +8,10 @@ import AnimalList from './AnimalList.jsx'
 import MainApp from './ComponentLists.jsx'
 import TodoList from './TodoList.jsx'
 import ButtonApp from './DataPassing.jsx'
+import ButtonAppu from './FunctionsProps.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ButtonApp />
+    <ButtonAppu />
   </StrictMode>,
 )

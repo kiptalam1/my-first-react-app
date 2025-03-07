@@ -11,9 +11,10 @@ import TodoList from './TodoList.jsx'
 import ButtonApp from './DataPassing.jsx'
 import ButtonAppu from './FunctionsProps.jsx'
 import ChangeBackground from './StateIntro.jsx'
+import Person from './MoreState.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ChangeBackground />
+    <Person />
   </StrictMode>,
 )
